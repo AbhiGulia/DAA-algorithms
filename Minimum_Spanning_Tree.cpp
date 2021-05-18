@@ -106,7 +106,8 @@ int main()
 			graph[j-start][i-start]=ew;	
 			ne--;
 		}
-	}  
+	}
+
 
 	primMST(graph,nv,start);
   cout<<"\n\nPress 1 to search again / any other key to exit : ";
