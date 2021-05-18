@@ -128,11 +128,6 @@ int main()
 		}
 	}  
 
-   /* cout<<"\n\nEnter the vertex from which you want to start the traversal : ";
-    cin>>stf;
-	cout << "\n\nFollowing is Breadth First Traversal "
-		<< "(starting from vertex "<<stf<<") :   ";
-	g.BFS(stf-start,start);*/
 	primMST(graph,nv,start);
   cout<<"\n\nPress 1 to search again / any other key to exit : ";
   cin>>ext;
@@ -140,10 +135,5 @@ int main()
      goto begin;
 	return 0;
 
-	// Print the solution
-
-	return 0;
 }
-
-// This code is contributed by rathbhupendra
 
